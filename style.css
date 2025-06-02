@@ -6,7 +6,7 @@
   border-bottom-right-radius: 6px;
   margin-left: auto;
   margin-right: auto;
-  top: 100px;
+  top: 200px;
   background-color: #00334c;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
@@ -395,7 +395,7 @@ body {
     }
     to {
         opacity: 1; 
-        transform: translateY(-5vh); 
+        transform: translateY(-5.2vh); 
     }
 }
 /* 
