@@ -9,6 +9,7 @@ const person_role = {
     "minh nhật": ["bạn", "tớ"],
     "nhật linh": ["bạn", "tớ"],
     "thiên kim": ["bạn", "tớ"],
+    "hoàng đức": ["bạn", "tớ"],
     "trà my": ["bạn", "tớ"],
     "cẩm tiên": ["bạn", "tớ"],
     "tiến phát": ["bạn", "tớ"],
