@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>graduation invitation</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/mail.png" type="image/png">
+</head>
+
+<body>
+    <audio id="background-audio" src="./assets/blue (instrumental).mp3" autoplay loop></audio>
+
+    <div class="envelope-wrapper">
+        <div id="envelope" class="close">
+            <div class="front flap"></div>
+            <div class="front pocket"></div>
+
+                <img src="./assets/BÌNH’S.png" alt="Letter Image" class="letter-image">
+  
+            <div id="imgModal" class="modal">
+                <span class="close-modal">&times;</span>
+                <img class="modal-content" id="modalImg">
+            </div>
+
+            <div class="hearts">
+                <div class="heart a1"></div>
+                <div class="heart a2"></div>
+                <div class="heart a3"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="fullIntroOverlay" class="full-overlay">
+        <div class="content-wrapper">
+            <img id="mainImage" class="main-image" src="" alt="Main Image">
+            <div id="textboxWrapper" class="textbox-wrapper hidden">
+                <img id="textboxImage" class="textbox-image" src="" alt="Textbox">
+                <p id="textboxText" class="textbox-text"></p>
+            </div>
+            <div id="inputWrapper" class="textbox-wrapper hidden">
+                <img id="inputTextboxImage" class="textbox-image" src="./assets/textbox.png" alt="Textbox">
+                <p class="textbox-text-2">Vui lòng nhập tên của bạn - tên và chữ lót nhé, để mình kiểm tra danh sách</p>
+                <input id="userInput" type="text" class="input-field" placeholder="Nhập tên của bạn..." />
+                <button id="submitInput" class="submit-button">Xác nhận</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script type="module" src="./scripts.js"></script>
+    <script type="module" src="./data.js"></script>
+
+</body>
+
+</html>
